@@ -36,7 +36,28 @@ can't infer the answer. Skip the folder template unless a subfolder of this
 project genuinely needs its own rules. Then show me what you set up.
 ```
 
-Prefer to do it by hand? Copy each template to its path in the table above and fill in the brackets.
+Prefer to do it by hand? Copy each template to its path in the table above.
+
+## Then make them yours
+
+The templates are deliberately generic — the brackets are the point. Don't fill them in by hand. Once the files are in place, hand Claude this:
+
+```
+I've just added CLAUDE.md template files (computer level and project level,
+maybe a folder one too). Make them mine:
+
+1. Read them, then read this project: the code, the structure, the README.
+2. Fill in every bracketed placeholder from what you find. Where you can't
+   infer the answer, ask me — one question at a time.
+3. Cut any line that doesn't match how I actually work, and add the gotchas
+   you can see in this project that the templates miss.
+4. Keep every rule at the right tier — computer level for things true
+   everywhere, project level for this build, folder level only if a subfolder
+   genuinely needs its own rules. Never repeat a rule across tiers.
+
+Show me the final files before saving them, with a short note on what you
+changed and why.
+```
 
 ## The better move: have the smartest model write yours
 
