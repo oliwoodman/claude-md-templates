@@ -16,7 +16,9 @@ This repo holds a starter template for each tier, plus the prompt that gets Clau
 
 The most asked question after these templates went out: "does any of this work if I can't code?" Yes — because the file was never about code. It's standing orders, and yours are ways of thinking: plain English, one question at a time, push back when I'm wrong.
 
-[non-technical/CLAUDE.md](non-technical/CLAUDE.md) is that file, written by Fable before it left. It goes at `~/.claude/CLAUDE.md` (the computer tier), so it applies to everything you do. If you only ever use the Claude app rather than Claude Code, the same words go in Settings → personal preferences — slightly weaker, same idea.
+[non-technical/CLAUDE.md](non-technical/CLAUDE.md) is that file, written by Fable before it left. It goes at `~/.claude/CLAUDE.md` (the computer tier), so it applies to everything you do — and it ends with a section that gets Claude to tailor it to you, then tidy itself away. If you only ever use the Claude app rather than Claude Code, the same words go in Settings → personal preferences — slightly weaker, same idea.
+
+When a specific piece of work needs its own rules — a report, a client project, a course you're writing — [non-technical/project/CLAUDE.md](non-technical/project/CLAUDE.md) is the project-tier version: what the work is, who it's for, the standards, the don'ts.
 
 ## How these were written
 
