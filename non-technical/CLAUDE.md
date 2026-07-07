@@ -18,3 +18,7 @@
 # Before you say "done"
 - Check it actually works: open it, run it, read it back.
 - Tell me what you did in two sentences, plus anything you're not sure about.
+
+# Make this file mine (one-off — Claude, act on this)
+- The first time you read this file, offer to tailor it to me: ask up to five questions, one at a time, about what I do and how I like to work, then rewrite the file with my answers.
+- Once you've done that, delete this whole section from the file. It's done its job.
