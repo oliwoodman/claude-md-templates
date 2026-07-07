@@ -12,6 +12,12 @@ The test for where a rule goes: true for everything you build? Computer. True fo
 
 This repo holds a starter template for each tier, plus the prompt that gets Claude to write yours properly.
 
+## Not technical? There's one for you too
+
+The most asked question after these templates went out: "does any of this work if I can't code?" Yes — because the file was never about code. It's standing orders, and yours are ways of thinking: plain English, one question at a time, push back when I'm wrong.
+
+[non-technical/CLAUDE.md](non-technical/CLAUDE.md) is that file, written by Fable before it left. It goes at `~/.claude/CLAUDE.md` (the computer tier), so it applies to everything you do. If you only ever use the Claude app rather than Claude Code, the same words go in Settings → personal preferences — slightly weaker, same idea.
+
 ## How these were written
 
 In July 2026, Claude Fable 5 — Anthropic's frontier model — spent its final weekend included on the standard plans. Before the window closed, I had it research Anthropic's own best-practice documentation and the strongest community practice, and then write these templates itself.
