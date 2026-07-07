@@ -16,24 +16,40 @@ This repo holds a starter template for each tier, plus the prompt that gets Clau
 
 The most asked question after these templates went out: "does any of this work if I'm not technical?" Yes — because the file was never about code. It's standing orders, and yours are ways of thinking: plain English, one question at a time, push back when I'm wrong.
 
-The [non-technical folder](non-technical/) holds a full set written by Fable before it left: the main file of general traits (ready to use as-is — it goes at `~/.claude/CLAUDE.md` and applies to everything you do), plus project and folder versions for when a specific piece of work needs its own rules. Nothing here requires following steps — you paste one prompt and Claude does the rest. Two to choose from:
-
-**Paste 1 — set up the ready-made files.** Claude fetches them, puts them where they live, then asks a few quick questions to make the main one yours:
+The [non-technical folder](non-technical/) holds a full set written by Fable before it left: the main file of general traits, plus project and folder versions for when a specific piece of work needs its own rules. There are no steps to follow — one paste does everything. Claude fetches the files, interviews you (one question at a time) about what you actually want from it, researches your line of work where it helps, and tailors every level to you:
 
 ```
-Please set up my CLAUDE.md files from this repo:
+Please set up my CLAUDE.md files — the standing instructions every future
+session will follow. I'm not technical, so plain English throughout, and do
+everything for me rather than giving me instructions.
+
+Start by fetching the base files from this repo:
 https://github.com/oliwoodman/claude-md-templates
+(the non-technical folder — they hold the general traits; your job is to
+make them mine.)
 
-I'm not technical — do this for me rather than giving me instructions. Use
-the templates in the non-technical folder. Put the main one at
-~/.claude/CLAUDE.md; if I already have a file there, merge them rather than
-overwrite. Then do what the file's last section says: ask what I do and what
-I use Claude for, one question at a time, and tailor the file to me. When
-you're done, show me the finished file and tell me, in plain English, what
-will change from now on.
+Then interview me, one question at a time — up to 8 questions, fewer if my
+answers cover it. Ask about: what I want to use Claude for, what I do day
+to day, how technical I honestly am, what's annoyed me about AI before, how
+I like information, and anything you should always or never do. If it would
+genuinely help, research how people in my line of work get the most out of
+AI before writing anything.
+
+Then set up my files:
+- The main one at ~/.claude/CLAUDE.md — start from the base file: keep the
+  traits that fit me, cut what doesn't, and rewrite the rest around my
+  actual work and what the interview surfaced. If I already have a file
+  there, merge — never overwrite. Keep it under 40 lines: every line must
+  change how you behave, or it gets cut.
+- If a specific piece of work came up (a report, a client project,
+  something I'm building), also write the file for that work's folder: what
+  it is, who it's for, the standards, the things that must never happen.
+
+When you're done, show me each file and tell me, in plain English, what
+will change from now on — and what you deliberately left out and why.
 ```
 
-**Paste 2 — have Claude build yours from scratch.** It interviews you about what you actually want from it, researches how people in your line of work use AI well, and writes the files around you — the full prompt is in [non-technical/BUILD-PROMPT.md](non-technical/BUILD-PROMPT.md).
+(The same prompt lives in [non-technical/BUILD-PROMPT.md](non-technical/BUILD-PROMPT.md).)
 
 If you only ever use the Claude app rather than Claude Code, copy the contents of [non-technical/CLAUDE.md](non-technical/CLAUDE.md) into Settings → personal preferences — slightly weaker, same idea.
 
