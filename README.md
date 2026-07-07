@@ -18,7 +18,24 @@ The most asked question after these templates went out: "does any of this work i
 
 [non-technical/CLAUDE.md](non-technical/CLAUDE.md) is that file, written by Fable before it left. It goes at `~/.claude/CLAUDE.md` (the computer tier), so it applies to everything you do — and it ends with a section that gets Claude to tailor it to you, then tidy itself away. If you only ever use the Claude app rather than Claude Code, the same words go in Settings → personal preferences — slightly weaker, same idea.
 
-When a specific piece of work needs its own rules — a report, a client project, a course you're writing — [non-technical/project/CLAUDE.md](non-technical/project/CLAUDE.md) is the project-tier version: what the work is, who it's for, the standards, the don'ts.
+When a specific piece of work needs its own rules — a report, a client project, a course you're writing — [non-technical/project/CLAUDE.md](non-technical/project/CLAUDE.md) is the project-tier version: what the work is, who it's for, the standards, the don'ts. And when one folder inside that work plays by different rules (the client-facing stuff, the final versions), [non-technical/folder/CLAUDE.md](non-technical/folder/CLAUDE.md) covers just that corner.
+
+Set all of it up in one paste — open Claude Code (or a Claude chat with your folder connected) and paste:
+
+```
+Please set up my CLAUDE.md files from this repo:
+https://github.com/oliwoodman/claude-md-templates
+
+I'm not technical, so use the templates in the non-technical folder. Put the
+main one at ~/.claude/CLAUDE.md — if I already have a file there, merge them,
+don't overwrite. Then do what the file's last section says: interview me, one
+question at a time, tailor the file to how I work, and tidy that section away.
+Only add the project or folder versions if I tell you about a specific piece
+of work that needs its own rules. When you're done, show me the finished files
+and explain, in plain English, what will change.
+```
+
+The full plain-English guide: [oliwoodman.com/claude-code/claude-md-non-technical](https://www.oliwoodman.com/claude-code/claude-md-non-technical).
 
 ## How these were written
 
