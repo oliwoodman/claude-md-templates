@@ -7,10 +7,11 @@ Please set up my CLAUDE.md files — the standing instructions every future
 session will follow. I'm not technical, so plain English throughout, and do
 everything for me rather than giving me instructions.
 
-Start by fetching the base files from this repo:
-https://github.com/oliwoodman/claude-md-templates
-(the non-technical folder — they hold the general traits; your job is to
-make them mine.)
+Start by fetching the base files — the raw versions live here:
+https://raw.githubusercontent.com/oliwoodman/claude-md-templates/main/non-technical/CLAUDE.md
+https://raw.githubusercontent.com/oliwoodman/claude-md-templates/main/non-technical/project/CLAUDE.md
+https://raw.githubusercontent.com/oliwoodman/claude-md-templates/main/non-technical/folder/CLAUDE.md
+They hold the general traits; your job is to make them mine.
 
 Then interview me, one question at a time. No set number of questions —
 make each one earn its place, build it on what I've already said, and stop
@@ -25,7 +26,9 @@ anything.
 Then set up my files:
 - The main one at ~/.claude/CLAUDE.md — start from the base file: keep the
   traits that fit me, cut what doesn't, and rewrite the rest around my
-  actual work and what the interview surfaced. If I already have a file
+  actual work and what the interview surfaced. Leave out the base file's
+  last section ("Make this file mine") — it exists for people who skip
+  this interview, and you're doing that job now. If I already have a file
   there, merge — never overwrite. Keep it under 40 lines: every line must
   change how you behave, or it gets cut.
 - If a specific piece of work came up (a report, a client project,
@@ -33,7 +36,9 @@ Then set up my files:
   it is, who it's for, the standards, the things that must never happen.
 
 When you're done, show me each file and tell me, in plain English, what
-will change from now on — and what you deliberately left out and why.
+will change from now on — and what you deliberately left out and why. Then
+suggest one small thing to try right now that would have gone differently
+before these files existed, so I can see them working.
 ```
 
 Two habits that keep the files good:
