@@ -12,28 +12,30 @@ The test for where a rule goes: true for everything you build? Computer. True fo
 
 This repo holds a starter template for each tier, plus the prompt that gets Claude to write yours properly.
 
-## Not technical? There's one for you too
+## For non-technical professionals
 
-The most asked question after these templates went out: "does any of this work if I can't code?" Yes — because the file was never about code. It's standing orders, and yours are ways of thinking: plain English, one question at a time, push back when I'm wrong.
+The most asked question after these templates went out: "does any of this work if I'm not technical?" Yes — because the file was never about code. It's standing orders, and yours are ways of thinking: plain English, one question at a time, push back when I'm wrong.
 
-[non-technical/CLAUDE.md](non-technical/CLAUDE.md) is that file, written by Fable before it left. It goes at `~/.claude/CLAUDE.md` (the computer tier), so it applies to everything you do — and it ends with a section that gets Claude to tailor it to you, then tidy itself away. If you only ever use the Claude app rather than Claude Code, the same words go in Settings → personal preferences — slightly weaker, same idea.
+The [non-technical folder](non-technical/) holds a full set written by Fable before it left: the main file of general traits (ready to use as-is — it goes at `~/.claude/CLAUDE.md` and applies to everything you do), plus project and folder versions for when a specific piece of work needs its own rules. Nothing here requires following steps — you paste one prompt and Claude does the rest. Two to choose from:
 
-When a specific piece of work needs its own rules — a report, a client project, a course you're writing — [non-technical/project/CLAUDE.md](non-technical/project/CLAUDE.md) is the project-tier version: what the work is, who it's for, the standards, the don'ts. And when one folder inside that work plays by different rules (the client-facing stuff, the final versions), [non-technical/folder/CLAUDE.md](non-technical/folder/CLAUDE.md) covers just that corner.
-
-Set all of it up in one paste — open Claude Code (or a Claude chat with your folder connected) and paste:
+**Paste 1 — set up the ready-made files.** Claude fetches them, puts them where they live, then asks a few quick questions to make the main one yours:
 
 ```
 Please set up my CLAUDE.md files from this repo:
 https://github.com/oliwoodman/claude-md-templates
 
-I'm not technical, so use the templates in the non-technical folder. Put the
-main one at ~/.claude/CLAUDE.md — if I already have a file there, merge them,
-don't overwrite. Then do what the file's last section says: interview me, one
-question at a time, tailor the file to how I work, and tidy that section away.
-Only add the project or folder versions if I tell you about a specific piece
-of work that needs its own rules. When you're done, show me the finished files
-and explain, in plain English, what will change.
+I'm not technical — do this for me rather than giving me instructions. Use
+the templates in the non-technical folder. Put the main one at
+~/.claude/CLAUDE.md; if I already have a file there, merge them rather than
+overwrite. Then do what the file's last section says: ask what I do and what
+I use Claude for, one question at a time, and tailor the file to me. When
+you're done, show me the finished file and tell me, in plain English, what
+will change from now on.
 ```
+
+**Paste 2 — have Claude build yours from scratch.** It interviews you about what you actually want from it, researches how people in your line of work use AI well, and writes the files around you — the full prompt is in [non-technical/BUILD-PROMPT.md](non-technical/BUILD-PROMPT.md).
+
+If you only ever use the Claude app rather than Claude Code, copy the contents of [non-technical/CLAUDE.md](non-technical/CLAUDE.md) into Settings → personal preferences — slightly weaker, same idea.
 
 The full plain-English guide: [oliwoodman.com/claude-code/claude-md-non-technical](https://www.oliwoodman.com/claude-code/claude-md-non-technical).
 
