@@ -28,12 +28,15 @@ https://github.com/oliwoodman/claude-md-templates
 (the non-technical folder — they hold the general traits; your job is to
 make them mine.)
 
-Then interview me, one question at a time — up to 8 questions, fewer if my
-answers cover it. Ask about: what I want to use Claude for, what I do day
-to day, how technical I honestly am, what's annoyed me about AI before, how
-I like information, and anything you should always or never do. If it would
-genuinely help, research how people in my line of work get the most out of
-AI before writing anything.
+Then interview me, one question at a time. No set number of questions —
+make each one earn its place, build it on what I've already said, and stop
+as soon as another answer wouldn't change what you write. Work out: what I
+do day to day, what I want Claude for, how technical I honestly am, what's
+annoyed me about AI before, how I like information, and anything you should
+always or never do. If I say "just set it up", stop asking and use sensible
+assumptions — flag them at the end. If it would genuinely help, research
+how people in my line of work get the most out of AI before writing
+anything.
 
 Then set up my files:
 - The main one at ~/.claude/CLAUDE.md — start from the base file: keep the
